@@ -8,11 +8,20 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">Sistema MVC</a>
+			<div class="navbar-nav">
+				<a class="nav-link" href="index.php?controller=note&action=list">Notas</a>
+				<a class="nav-link" href="index.php?controller=baile&action=list">Bailes</a>
+				<a class="nav-link" href="index.php?controller=musica&action=list">Músicas</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container" style="margin-top: 80px;">
 		<header class="mb-5">
-			<div class="p-5 text-center bg-light" style="margin-top: 58px;">
+			<div class="p-5 text-center bg-light">
 				<h1 class="mb-3"><?php echo $controller->page_title; ?></h1>
 				<h4 class="mb-3">-</h4>
 			</div>
 		</header>
-

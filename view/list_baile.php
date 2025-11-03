@@ -9,7 +9,6 @@
             ?>
             <div class="col-md-3">
                 <div class="card-body border border-secondary rounded">
-                    <img src="<?php echo $baile['url_img']; ?>" class="img-thumbnail rounded mx-auto d-block" alt="imagen baile">
                     <h5 class="card-title"><?php echo $baile['nombre']; ?></h5>
                     <p class="card-text"><?php echo $baile['zona']; ?></p>
                     <hr class="mt-1"/>

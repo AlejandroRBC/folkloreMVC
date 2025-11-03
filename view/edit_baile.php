@@ -21,10 +21,7 @@ if(isset($dataToView["data"]["url_img"])) $url_img = $dataToView["data"]["url_im
             <label>Zona</label>
             <input class="form-control" type="text" name="zona" value="<?php echo $zona; ?>" />
         </div>
-        <div class="form-group mb-2">
-            <label>URL Imagen</label>
-            <input class="form-control" type="text" name="url_img" value="<?php echo $url_img; ?>" />
-        </div>
+        
         <input type="submit" value="Guardar" class="btn btn-primary"/>
         <a class="btn btn-outline-danger" href="index.php?controller=baile&action=list">Cancelar</a>
     </form>

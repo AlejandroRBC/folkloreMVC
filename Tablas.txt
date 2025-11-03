@@ -1,0 +1,13 @@
+create table baile 
+(
+	id_baile  INT NOT NULL AUTO_INCREMENT primary KEY,
+	nombre varchar(20),
+	zona varchar(20)
+);
+create table musica 
+(
+	id_musica  INT NOT NULL AUTO_INCREMENT primary KEY,
+	nombre varchar(100),
+	autor varchar(20),
+	ritmo varchar(20)
+);
