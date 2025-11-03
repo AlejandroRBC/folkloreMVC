@@ -5,8 +5,7 @@ class Note {
 	private $table = 'note';
 	private $conection;
 
-	public function __construct() {
-		
+	public function __construct() {	
 	}
 
 	/* Set conection */
